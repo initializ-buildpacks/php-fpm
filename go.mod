@@ -1,4 +1,4 @@
-module github.com/paketo-buildpacks/php-fpm
+module github.com/initializ-buildpacks/php-fpm
 
 go 1.21
 

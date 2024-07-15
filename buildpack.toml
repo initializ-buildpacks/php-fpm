@@ -2,14 +2,14 @@ api = "0.7"
 
 [buildpack]
   description = "A buildpack for configurating FPM"
-  homepage = "https://github.com/paketo-buildpacks/php-fpm"
-  id = "paketo-buildpacks/php-fpm"
+  homepage = "https://github.com/initializ-buildpacks/php-fpm"
+  id = "initializ-buildpacks/php-fpm"
   keywords = ["php", "fpm"]
-  name = "Paketo Buildpack for PHP FPM"
+  name = "Initializ Buildpack for PHP FPM"
 
   [[buildpack.licenses]]
     type = "Apache-2.0"
-    uri = "https://github.com/paketo-buildpacks/php-fpm/blob/main/LICENSE"
+    uri = "https://github.com/initializ-buildpacks/php-fpm/blob/main/LICENSE"
 
 [metadata]
   include-files = ["bin/run", "bin/build", "bin/detect", "buildpack.toml", "config/php-fpm-base.conf", "config/php-fpm-buildpack.conf"]

@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	phpfpm "github.com/paketo-buildpacks/php-fpm"
+	phpfpm "github.com/initializ-buildpacks/php-fpm"
 	"github.com/sclevine/spec"
 
 	. "github.com/onsi/gomega"

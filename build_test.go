@@ -10,8 +10,8 @@ import (
 
 	"github.com/paketo-buildpacks/packit/v2"
 	"github.com/paketo-buildpacks/packit/v2/scribe"
-	phpfpm "github.com/paketo-buildpacks/php-fpm"
-	"github.com/paketo-buildpacks/php-fpm/fakes"
+	phpfpm "github.com/initializ-buildpacks/php-fpm"
+	"github.com/initializ-buildpacks/php-fpm/fakes"
 	"github.com/sclevine/spec"
 
 	. "github.com/onsi/gomega"
